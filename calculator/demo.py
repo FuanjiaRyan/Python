@@ -1,8 +1,10 @@
 #import calc
-from calc import sub, add
+from calc import *
 
 result1 = add()
-print(result1)
+print("In Demo: ",result1)
 
 result2 = sub()
-print(result2)
+print("In Demo: ",result2)
+
+#print("In Demo", __name__)
